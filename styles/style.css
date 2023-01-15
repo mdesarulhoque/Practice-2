@@ -99,6 +99,9 @@ nav a{
     height: 600px;
     width: 330px;
 }
+.fa-solid {
+    color:#FF900E;
+}
 .sec-3-2{
     margin-right: 120px;
     background-image: url(../images/architect.png);
