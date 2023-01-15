@@ -18,12 +18,12 @@
 .header-bar{
     margin-right:120px ;
     margin-top: 27px;
-    font-size: 14px;
+    font-size: 12px;
 }
 nav a{
     text-decoration: none;
     padding: 10px;
-    
+    font-weight: 700;
 }
 .sec-1{
     text-align: center;
@@ -62,6 +62,7 @@ nav a{
     gap: 50px;
     justify-items: center;
     justify-content:center;
+    
 }  
 .div-2{
     display:grid;
@@ -93,6 +94,7 @@ nav a{
     margin-top:50px;
     justify-items: center;
     justify-content:center;
+    
 }
 .box{
     margin-left: 120px;
@@ -130,7 +132,8 @@ nav a{
     margin-left: 120px;
     margin-top: 20px;
     width: 350px;
-   
+    
+    
 }
 
 .box1234{
@@ -164,6 +167,7 @@ nav a{
     margin-top: 40px;
     margin-bottom: 60px;
     display: block;
+    
 }
 .footer{
     font-size: 18px;
@@ -172,6 +176,85 @@ nav a{
     background-color:  rgb(248, 225, 193);
     border: 0;
     border-radius: 4px;
-    text-align: center;
+    text-align: center;  
     
+}
+@keyframes sliding{
+    0%{
+        background-color: rgb(11, 233, 177);
+        left: 0;
+        top: 0;
+        transform: scale(1);
+    
+    }
+    25%{
+        top: 50px;
+        background-color: rgb(248, 7, 59);
+        transform: scale(0.5);
+    }
+    50%{
+        top: 0;
+        background-color: khaki;
+        transform: scale(1);
+    }
+    75%{
+        top:50px;
+        background-color: sienna;
+        transform: scale(0.5);
+    }
+    100%{
+        background-color: rgb(233, 236, 8);
+        left: 300px;
+        top: 0;
+        transform: scale(1);
+    }
+}
+.animition{
+    width: 350px;
+    height: 100px;
+    background-color: rgb(250, 245, 246);
+    border: 1px solid rgb(252, 173, 3);
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.present{
+    height: 50px;
+    position: relative;
+    width: 50px;
+    background-color: azure;
+    border-radius: 50%;
+    animation: sliding 3s ease-in-out 0.5s infinite alternate ;
+    animation-play-state: running;
+}
+.bonus{
+    display: flex;
+    gap: 20px;
+}
+.history-title{
+    text-align: center;
+}
+.point{
+    margin-left: 120px;
+    width: 350px;
+}
+.short-text{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.point p{
+    font-weight: 600;
+    font-size:17px;
+}
+.bonus-2{
+    width:500px;
+    height: 125px;
+    border: 1px solid rgb(252, 173, 3);
+    overflow: scroll;
+    width: 600px;
+    height: 200px;
+    margin-top: 30px;
+}
+.bonus-2 p{
+    padding: 8px;
 }
