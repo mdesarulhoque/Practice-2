@@ -253,9 +253,10 @@ nav a{
     height: 125px;
     border: 1px solid rgb(252, 173, 3);
     overflow: scroll;
-    width: 660px;
+    width: 800px;
     height: 200px;
     margin-top: 30px;
+    margin-right: 120px;
 }
 .bonus-2 p{
     padding: 8px;
@@ -330,7 +331,7 @@ nav a{
     }
     .sponsers{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
         width: 350px;
         margin-top: 20px;
         margin-bottom: 20px;
