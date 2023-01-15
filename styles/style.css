@@ -1,6 +1,6 @@
 *{
     font-family: "Trirong", serif;
-    margin: 0;
+    margin:0;
 }
 .header-main{
     background-color: rgb(248, 225, 193);
@@ -23,6 +23,7 @@
 nav a{
     text-decoration: none;
     padding: 10px;
+    
 }
 .sec-1{
     text-align: center;
@@ -49,11 +50,11 @@ nav a{
     margin-bottom: 25px;
 }
 .div-1-2 img{
-    margin-left: 120px;
-    margin-right: 115px;
+    
     height: 500px;
-    width:1100px;
+    width:800px;
     margin-bottom: 20px;
+    
 }
  
 .sec-2{
@@ -82,7 +83,90 @@ nav a{
     width: 300px;
 }
 .dic-2-2 h3{
-    font-size: 30px;
+    font-size:25px;
     width: 700;
     color: #FF900E;
+}
+.sec-3{
+    display: flex;
+    gap:30px ;
+    margin-top:50px;
+    justify-items: center;
+    justify-content:center;
+}
+.box{
+    margin-left: 120px;
+    height: 600px;
+    width: 330px;
+}
+.sec-3-2{
+    margin-right: 120px;
+}
+.sec-3-2 img{
+    height: 550px;     
+}
+.inline-box{
+    padding: 5px;
+    background-color: rgba(247, 248, 244, 0.37);
+    gap: 5px;
+    box-shadow: 0px 4px 30px rgba(150, 148, 148, 0.06);
+}
+.btn-10{
+    top: 800px;
+    border: 0;
+    background-color: #FF900E;
+    color: white;
+    font-size: 20;
+    font-weight:700;
+    height:60px;
+    width: 100px;
+}
+.sec-4{
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 350px;
+   
+}
+
+.box1234{
+    margin-top: 50px;
+    display:flex ;
+    gap: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    justify-content: space-between;
+}
+.box4{
+    text-align: center;
+    border: 1px solid #FF900E;
+    height: 120px;
+    width: 150px;
+    padding:10px;
+}
+.sec-6{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.sponsers{
+    display: flex;
+    margin-left: 120px;
+    margin-top: 60px;
+    margin-right: 120px;
+    justify-content: space-between;
+}
+.footer-8{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    display: block;
+}
+.footer{
+    font-size: 18px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color:  rgb(248, 225, 193);
+    border: 0;
+    border-radius: 4px;
+    text-align: center;
+    
 }
