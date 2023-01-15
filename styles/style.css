@@ -101,10 +101,10 @@ nav a{
 }
 .sec-3-2{
     margin-right: 120px;
-}
-.sec-3-2 img{
-    height: 550px;     
-}
+    background-image: url(../images/architect.png);
+    width: 600px;
+    height: 550px;
+}    
 .inline-box{
     padding: 5px;
     background-color: rgba(247, 248, 244, 0.37);
@@ -120,6 +120,8 @@ nav a{
     font-weight:700;
     height:60px;
     width: 100px;
+    margin-top: 510px;
+   
 }
 .sec-4{
     margin-left: 120px;
